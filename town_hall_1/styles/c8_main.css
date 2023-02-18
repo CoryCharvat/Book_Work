@@ -172,7 +172,7 @@ footer p {
 	padding: 1em 0;
 }
 @media screen and (max-width: 818px) {
-	aside h2 {                   /* !!!!!!!!!!!!!!!!!!!!!!!!! to small??? */
+	aside h3 {                 
 		font-size: 85%;
 	}
 	section h1{

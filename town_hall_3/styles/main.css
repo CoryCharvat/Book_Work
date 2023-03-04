@@ -120,6 +120,50 @@ section li {
 	padding-bottom: .35em;
 }
 
+
+
+
+
+table{
+	border-collapse: collapse;
+}
+figure, figcaption{
+	margin: 0;
+	padding: 0;
+}
+td, th{
+	padding: .2em .8em;
+}
+figcaption{
+	font-weight: bold;
+	text-align: left;
+	
+}
+.l1{
+	text-align: right;
+	border-top: 2px solid #800000;
+}
+.l2{
+	text-align: right;
+	border-bottom: 2px solid #800000;
+}
+.l3{
+	text-align: right;
+	border-bottom: 2px solid #800000;
+}
+.year, .date, .name, .cost {
+	border-top: 2px solid #800000;
+}
+
+
+
+
+
+
+
+
+
+
 /* the styles for the article */
 article {
 	padding: .5em 0;

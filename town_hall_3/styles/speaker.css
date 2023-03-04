@@ -19,6 +19,7 @@ a:focus, a:hover {
 }
 /* the styles for the header */
 header {
+
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
 		background-image: -moz-linear-gradient(
@@ -30,7 +31,12 @@ header {
 	background-image: linear-gradient(
 	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
 }
+@font-face {
+	font-family: Climate Crisis;
+	src: url(ClimateCrisis-Regular.ttf);
+}
 header h2 {
+	font-family: Climate Crisis;
 	font-size: 175%;
 	color: #800000;
 }
@@ -124,6 +130,20 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+}
+figure{
+	float: right;
+	margin-right: 1.5em;
+	padding-left: 5%;
+}
+figcaption{
+	display: block;
+	font-weight: bold;
+	padding-top: .25em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black;
+	
+	
 }
 
 /* the styles for the aside */
